@@ -1,0 +1,32 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "a0f5058b5a98d0cfafb769792c5f52b60011bdeafc23a3acfdfdd1d569e3343f"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.10"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "pocketsphinx": {
+            "git": "https://github.com/sfgeorge/pocketsphinx-python",
+            "ref": "46799394ca7a053e10b204c78369f89fafdaede7"
+        },
+        "speechrecognition": {
+            "hashes": [
+                "sha256:4d8f73a0c05ec70331c3bacaa89ecc06dfa8d9aba0899276664cda06ab597e8e"
+            ],
+            "index": "pypi",
+            "version": "==3.8.1"
+        }
+    },
+    "develop": {}
+}
