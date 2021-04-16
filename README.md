@@ -19,3 +19,4 @@ Alternatively, if you prefer really long commands:
 ## Resources
 
 * https://pypi.org/project/SpeechRecognition/
+* https://github.com/Uberi/speech_recognition/blob/master/reference/pocketsphinx.rst
