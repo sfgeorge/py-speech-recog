@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from pprint import pprint
+import speech_recognition
 import sys
 
 def run(audio_path):
