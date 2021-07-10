@@ -8,7 +8,10 @@ def run(audio_path):
     errprint()
     recognizer = speech_recognition.Recognizer()
 
-    transcription = process_audio_data(audio_data = audio_path, recognizer = recognizer)
+    with speech_recognition.AudioFile(audio_path) as source:
+        audio_data = recognizer.record(source)  # read the entire audio file
+
+    transcription = process_audio_data(audio_data = audio_data, recognizer = recognizer)
 
     return transcription
 
