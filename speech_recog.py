@@ -26,5 +26,7 @@ def process_audio_data(audio_data, recognizer):
        return transcription
     except speech_recognition.UnknownValueError:
         print("Sphinx could not understand audio")
+    except speech_recognition.RequestError as e:
+        print("Sphinx error; {0}".format(e))
 
 transcription = run(sys.argv[1])
