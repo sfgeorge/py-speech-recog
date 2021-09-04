@@ -21,7 +21,7 @@ def errprint(*args, **kwargs):
 def process_audio_data(audio_data, recognizer):
     # recognize speech using Sphinx
     try:
-       transcription = recognizer.recognize_sphinx(audio_data)
+       transcription = recognizer.recognize_sphinx(audio_data, language = "en-US")
        print(transcription)
        return transcription
     except speech_recognition.UnknownValueError:
