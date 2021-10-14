@@ -21,3 +21,4 @@ Alternatively, if you prefer really long commands:
 * https://pypi.org/project/SpeechRecognition/
 * https://cmusphinx.github.io/wiki/tutorialpocketsphinx/
 * https://github.com/Uberi/speech_recognition/blob/master/reference/pocketsphinx.rst
+* https://github.com/Uberi/speech_recognition/blob/master/reference/library-reference.rst#audiosource
