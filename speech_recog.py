@@ -7,7 +7,7 @@ def run(audio_path):
     errprint("Processing '" + audio_path + "'")
     errprint()
     recognizer = speech_recognition.Recognizer()
-    recognizer.energy_threshold = 4000
+    recognizer.energy_threshold = 300
 
     with speech_recognition.AudioFile(audio_path) as source:
         audio_data = recognizer.record(source)  # read the entire audio file
