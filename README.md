@@ -6,6 +6,7 @@ For now, these instructions are tailored to OS X.
 
 ## Installation
 
+    rehash # Zsh only
     pipenv install
 
 Alternatively, if you prefer really long commands:
