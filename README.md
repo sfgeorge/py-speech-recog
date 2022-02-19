@@ -6,6 +6,7 @@ For now, these instructions are tailored to OS X.
 
 ## Installation
 
+    pyenv install
     rehash # Zsh only
     pipenv install
 
